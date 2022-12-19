@@ -37,13 +37,13 @@ public class Ques7 {
 	            }
 	      }
 	 
-	       Set<java.util.Map.Entry<Integer, Integer>> entry = arrMap.entrySet();
+	       Set<Map.Entry<Integer, Integer>> entry = arrMap.entrySet();
 	 
 	       /*
 	        *Traverse the map, If any key has value greater than 1
 	        *It means, it is duplicate element in an array
 	        */ 
-	       for(java.util.Map.Entry<Integer, Integer> ent: entry) {
+	       for(Map.Entry<Integer, Integer> ent: entry) {
 	 
 	          if(ent.getValue() > 1) {
 	             System.out.println(ent.getKey());

@@ -7,7 +7,18 @@ public class Ques22 {
 		
 		double cp = 234.67;
 		double sp = 786.89;
-		String name = "Techout";
+		String str = "Techout";
+		
+		
+		Techout t = (profit, name) -> {
+			
+			System.out.println(cp + "  " + name);
+			return name;
+		};
+		
+		t.getCompDetails(sp, Techout.compName(str));
+		
+		//System.out.println(t.calculateProfit(cp, sp));
 		
 		
 

@@ -28,6 +28,6 @@ public interface Techout {
 	}
 	
 	// abstract method
-	public void getCompDetails(double profit, String name);
+	public String getCompDetails(double profit, String name);
 
 }
