@@ -12,13 +12,13 @@ public class Ques22 {
 		
 		Techout t = (profit, name) -> {
 			
-			System.out.println(cp + "  " + name);
-			return name;
+			
+			return profit + " : " + name;
 		};
 		
-		t.getCompDetails(sp, Techout.compName(str));
+		System.out.println(t.getCompDetails(sp, Techout.compName(str)));
 		
-		//System.out.println(t.calculateProfit(cp, sp));
+		
 		
 		
 
