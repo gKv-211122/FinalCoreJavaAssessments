@@ -16,7 +16,8 @@ public class Ques22 {
 			return profit + " : " + name;
 		};
 		
-		System.out.println(t.getCompDetails(sp, Techout.compName(str)));
+		//System.out.println(t.calculateProfit(cp, sp));
+		System.out.println(t.getCompDetails(t.calculateProfit(cp, sp), Techout.compName(str)));
 		
 		
 		
